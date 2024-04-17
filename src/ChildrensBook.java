@@ -20,9 +20,6 @@ public class ChildrensBook extends Book {
         return super.toString() + "\nRecommended Age:  " + getRecommendedAgeInfo();
     }
 
-    @Override
-    public void printDetails() {
-        System.out.println(toString());
-    }
+
 
 }

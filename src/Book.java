@@ -30,7 +30,7 @@ public class Book extends Product {
 
     @Override
     public void printDetails() {
-        System.out.println(toString());
+        System.out.println(this);
     }
 
     @Override

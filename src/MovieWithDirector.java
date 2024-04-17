@@ -15,20 +15,9 @@ public class MovieWithDirector extends Movie {
         this.director = director;
     }
 
+
     @Override
     public String toString() {
-
-        return "--- Movie Details (with Director)---" +
-                "\nId: " + getProductId() +
-                "\nTitle: " + getTitle() +
-                "\nGenre: " + getGenre() +
-                "\nPrice: " + getPrice() +
-                "\nDirector: " + getDirector();
-    }
-
-    @Override
-    public void printDetails() {
-        System.out.println(toString());
-
+        return super.toString() + "\nDirector:  " + getDirector();
     }
 }

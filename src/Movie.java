@@ -30,8 +30,6 @@ public class Movie extends Product {
 
     @Override
     public String toString() {
-
-
         return "--- Movie Details ---" +
                 "\nId: " + getProductId() +
                 "\nTitle: " + getTitle() +
@@ -42,6 +40,6 @@ public class Movie extends Product {
 
     @Override
     public void printDetails() {
-        System.out.println(toString());
+        System.out.println(this);
     }
 }

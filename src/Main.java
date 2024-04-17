@@ -5,7 +5,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         List<Product> myProduct = new ArrayList<>();
         myProduct.add(new Book(1001, 10, "Starship Troopers", "Robert A. Heinlein"));
         myProduct.add(new Book(1002, 20, "Stranger in a Strange Land", "Robert A. Heinlein"));
